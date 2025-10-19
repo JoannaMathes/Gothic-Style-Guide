@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    background-image: url('./margarida-csilva-wVtN1hZRD5U-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0 0;
+}
+body::before {
+    content: "";
+    z-index: -10;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.20) 100%);
+
+}
+header {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+header img {
+    width: 200px;
+    margin: -25px auto;
+
+}
+h1 {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 38px;
+}
+h2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Jim Nightshade", cursive;
+    font-size: 45px;
+}
+p, li {
+    font-family: "Bellefair", serif;
+    font-weight: bold;
+    z-index: 20;
+    font-synthesis: none;
+    font-size: 18px;
+}
+section {
+    margin: 55px 0px;
+}
+/* Colors Section Styles */
+.colors-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.color-card {
+    min-height: 200px;
+    max-height: 750px;
+    min-width: 200px;
+    max-width: 750px;
+    margin: 15px;
+    text-align: center;
+}
+.color-card > p {
+    position: relative;
+    top: 90px;
+}
+/* Unique Color Styles */
+.rich-black {
+    background-color: #07090F;
+}
+.raisin-black {
+    background-color: #2B2827;
+}
+.silver {
+    background-color: #BFAFA6;
+}
+.umber {
+    background-color: #766256;
+}
+.jasper {
+    background-color: #ca4f3f;
+}
+.auburn {
+    background-color: #a0392c;
+}
+.caput-mortuum {
+    background-color: #581F18;
+}
+.violet {
+    background-color: #53263F;
+}
+.quinacridone {
+    background-color: #7E3A5F;
+} 
+.light-lettering {
+    color: rgba(255, 255, 255, 0.75);
+}
+.black-lettering {
+    color:rgba(0, 0, 0, 0.75);
+}
+/* Fonts Section Styles */
+.fonts-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.font-card {
+    max-width: 50%;
+    min-width: 400px;
+    text-align: center;
+    margin: 15px auto;
+}
+.unifraktur, .unifraktur p{
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+}
+.jim-nightshade, .jim-nightshade p {
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 400;
+}
+.bellefair, .bellefair p {
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+}
+/* Text Styles Section */
+.text-style-card {
+    max-width: 85%;
+    min-width: 450px;
+    margin: 15px auto;
+    
+}
+.example {
+    text-align: center;
+}
+.text-style-card ul {
+    list-style-position: inside;
+    
+}
+/* footer section */
+footer {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+footer p {
+    padding: 20px;
+}
